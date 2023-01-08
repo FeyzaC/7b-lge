@@ -9,11 +9,22 @@
   margin: 30px;
 }
 
+.main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
 .bolgeCard {
   width: 200px;
   height: 300px;
   text-align: center;
   padding: 10px;
+  border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
@@ -23,4 +34,15 @@
 
 .bolgeImg {
   width: 150px;
+  margin: 20px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  margin: 15px;
 }
