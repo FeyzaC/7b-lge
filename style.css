@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: ease-in-out 0.3s;
+  font-family: "Yeon Sung", cursive;
 }
 
 body {
@@ -56,4 +60,9 @@ button {
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.418);
+  color: white;
 }
